@@ -1,0 +1,55 @@
+* {
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+
+td,
+th,
+tr,
+table {
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+
+td.local,
+th.local {
+    width: 90px;
+    max-width: 90px;
+}
+
+td.consulta,
+th.consulta {
+    width: 75px;
+    max-width: 75px;
+    word-break: break-all;
+}
+
+td.medico,
+th.medico {
+    width: 75px;
+    max-width: 75px;
+    word-break: break-all;
+}
+
+.centrado {
+    text-align: center;
+    align-content: center;
+}
+
+.ticket {
+    width: 250px;
+    max-width: 250px;
+}
+
+img {
+    max-width: 155px;
+    padding-left: 18%;
+    width: inherit;
+}
+
+@media print {
+    .oculto-impresion,
+    .oculto-impresion * {
+        display: none !important;
+    }
+}

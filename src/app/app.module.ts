@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ImprimeComponent } from './components/imprime/imprime.component';
+import { rounting } from './app-routing';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ImprimeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    rounting,
   ],
   providers: [],
   bootstrap: [AppComponent]
